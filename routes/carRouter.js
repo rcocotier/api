@@ -1,5 +1,5 @@
-
 import express from 'express';
+
 import brandRouter from './brandRouter';
 
 const db = {

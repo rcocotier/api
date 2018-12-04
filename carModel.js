@@ -1,7 +1,5 @@
 import mongoose from 'mongoose';
 
-const db = mongoose.connect('mongodb://coco:coco@localhost:27017/absoluteperformance');
-
 const Schema = mongoose.Schema;
 const carModel = new Schema({
     _id: { type: Number },
